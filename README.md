@@ -9,7 +9,7 @@ When viewing the Jupyter Notebooks please note the the first notebook includes t
 ## Business and Data Understanding:
 WCAN does not currently have its own dataset of Terry Stops and the only publically avaiable dataset is provided by the Seattle Police Department. There are many limitations to this dataset but mostly it will be used as a starting point and a way of understanding what features will be important to include in their round of data gathering. 
 
-It is important to understand that their proposed app would be downloaded by consumers, a short survery would be taken and then if they were to be pulled over the information provided and gathered would be run through the predictive model to detect the likelihood of an arrest. If that likelihood of arrest is high a volunteer lawyer would be dispatched to mediate the scenario. 
+It is important to understand that their proposed app would be downloaded by consumers, a short survey would be taken and then if they were to be pulled over the information provided and gathered would be run through the predictive model to detect the likelihood of an arrest. If that likelihood of arrest is high a volunteer lawyer would be dispatched to mediate the scenario. 
 
 After cleaning the dataset and eleminating features that were irrelevent or had high multicolinearity I was left with ten features. Of these ten features the most noteable were, Officer race and gender, subject race and gender, time of terry stop and location of the stop. All of the features were categorical. It should be fairly obvious that from the limited scope of these features the creation of a predictive model was destined to underperform.
 
