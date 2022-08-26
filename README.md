@@ -18,33 +18,33 @@ Although my model failed to perform better than the baseline model there were ma
 
 ### Dummy Model (Baseline):
 
-![Dummy.png](attachment:Image/Dummy.png)
+![Dummy.png](https://github.com/JordanMang/PHASE3WACAN/blob/main/Image/Dummy.png)
 
 From my baseline model you can see that the dataset is fairly imbalanced and that most of my models will be deceptively accurate. To combat this I created some Synthetic data through the use of SMOTEN.
 
 ### Logistic Regression (Basic):
 
-![Logistic%20Regression.png](attachment:Image/Logistic%20Regression.png)
+![Logistic%20Regression.png](https://github.com/JordanMang/PHASE3WACAN/blob/main/Image/Logistic%20Regression.png)
 
 Here you can see that the Logistic Regression was one of the better performing models. This is attributed to the fact that it is known to handle categoricals best but tends to perform poorly on imbalanced sets. The regression pictured above does have SMOTEN within it's pipeline as a way to counteract the imbalanced classes.
 
 ### Random Forest Classifier:
 
-![RFC.png](attachment:Image/RFC.png)
+![RFC.png](https://github.com/JordanMang/PHASE3WACAN/blob/main/Image/RFC.png)
 
 In an attempt to bypass the class imbalance a Random Forest Classifier was then used. Although not strong in the processing of categoricals RFC are known to work well with imbalanced sets. The RFC pictured above does also have SMOTEN within it's pipeline but was only added in a final attempt to convince the model to bahave.
 
 ### Gradient Boost Classfier:
 
-![GBC.png](attachment:Image/GBC.png)
+![GBC.png](https://github.com/JordanMang/PHASE3WACAN/blob/main/Image/GBC.png)
 
 One final model was applied in a desparate attempt to convince my f1 score to heights greater than .16 but sadly it never happened.
 
 ## Evaluation:
 
-As of right now it appears that we do not currently have all the information needed to create a working model to predict who gets arrested after a Terry Stop. A Terry Stop is essentially a random stop and the most damagine part is that although it may appear that most races have a 1/10 chance of being arrested from a Terry Stop (Based on the information provided by SPD), minorities are pulled over for being "suspicious" at a disproportionate rate leading to unjust arrests. To make an accurate prediction of arrests we need to full picture, not just the race and gender information provided by SPD. From the data all we can say now is that there is a disproportionate number of minority members being pulled over.
+As of right now it appears that we do not currently have all the information needed to create a working model to predict who gets arrested after a Terry Stop. A Terry Stop is essentially a random stop and the most damaging part is that although it may appear that most races have a 1/10 chance of being arrested from a Terry Stop (Based on the information provided by SPD), minorities are pulled over for being "suspicious" at a disproportionate rate leading to unjust arrests. To make an accurate prediction of arrests we need to full picture, not just the race and gender information provided by SPD. From the data all we can say now is that there is a disproportionate number of minority members being pulled over.
 
-![proportional%20arrests.png](attachment:Image/proportional%20arrests.png)
+![proportional%20arrests.png](https://github.com/JordanMang/PHASE3WACAN/blob/main/Image/proportional%20arrests.png)
 
 ## Conclusion:
 
